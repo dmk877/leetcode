@@ -33,6 +33,7 @@ public class Solution {
 	        //当前位为9，则加一后%10=0，不为9加一后%10为加1之后的数
 	        digits[i] = digits[i] % 10;
 	        //如果当前位的数字不为9，则此数字直接加1
+	        digits[i] = digits[i] % 10;
 	        if (digits[i] != 0) return digits;
 	    }
 
